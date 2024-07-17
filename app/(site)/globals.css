@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --max-width: 1400px;
+}
+
+
+
+body {
+  background-color: #000000;
+  color: white;
+  overflow-x: hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-aero);
+}
+
+
+p, a, li, span, label, div {
+  font-family: var(--font-cairo);
+}
+
+
