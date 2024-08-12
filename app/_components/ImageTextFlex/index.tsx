@@ -5,6 +5,7 @@ import clsx from 'clsx';
 import { FaCheck } from 'react-icons/fa';
 
 interface ImageFlexTextProps {
+    pretitle?: string;
     title: string;
     text: string[];
     image: StaticImageData;
@@ -17,6 +18,7 @@ interface ImageFlexTextProps {
 }
 
 const ImageFlexText: FC<ImageFlexTextProps> = ({
+    pretitle,
     title,
     text,
     image,
@@ -37,6 +39,9 @@ const ImageFlexText: FC<ImageFlexTextProps> = ({
             >
                 {/* Text */}
                 <div className="lg:w-1/2 flex flex-col">
+                    {pretitle && (
+                        <p className="font-semibold text-xl">{pretitle}</p>
+                    )}
                     <h2 className="text-3xl mb-4">{title}</h2>
                     {Array.isArray(text) &&
                         text.map((para) => (

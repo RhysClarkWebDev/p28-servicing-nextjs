@@ -59,6 +59,13 @@ const metaData: MetaDataType = {
         Packages or make an enquiry about a suitable package for your car. 
         We service all makes and models.`,
     },
+
+    mustang: {
+        title: 'Ford Mustang Servicing | Performance28 Servicing',
+        description: `Get expert Ford Mustang servicing at Performance28. Discover 
+        our tailored car servicing packages designed for all makes and models. 
+        Contact us today to ensure your Mustang runs at peak performance.`,
+    },
 };
 
 export { metaData };

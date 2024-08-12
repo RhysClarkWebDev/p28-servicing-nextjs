@@ -31,6 +31,12 @@ const useRoutes = () => {
             },
 
             {
+                label: 'Mustang',
+                href: '/ford-mustang',
+                active: pathname === '/ford-mustang',
+            },
+
+            {
                 label: 'Packages',
                 href: '/packages',
                 active: pathname === '/packages',
